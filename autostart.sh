@@ -2,6 +2,6 @@
 
 picom --config ~/.config/picom/picom.conf &
 
-feh --bg-scale ~/.config/qtile/wall.jpg &
+feh --bg-scale ~/.config/qtile/wall.png &
 
 nm-applet &
