@@ -28,6 +28,7 @@ keys = [
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod], "d", lazy.spawn("rofi -show drun"), desc="Spawn rofi drun"),
+    Key([mod], "b", lazy.spawn("brave"), desc="Spawn browser"),
 ]
 
 groups = []
@@ -146,7 +147,7 @@ screens = [
         top=bar.Bar(
             [
                 widget.GroupBox(
-                    font="FontAwesome",
+                    font="Font Awesome 6 Free",
                     fontsize=16,
                     margin_y=3,
                     margin_x=5,
@@ -169,7 +170,7 @@ screens = [
                     background=colors[1],
                 ),
                 widget.TextBox(
-                    font="FontAwesome",
+                    font="Font Awesome 6 Free",
                     text=" ",
                     foreground=colors[5],
                     fontsize=16,
@@ -185,7 +186,7 @@ screens = [
                     background=colors[9],
                 ),
                 widget.TextBox(
-                    font="FontAwesome",
+                    font="Font Awesome 6 Free",
                     text=" ",
                     foreground=colors[5],
                     fontsize=16,
@@ -201,7 +202,7 @@ screens = [
                     background=colors[3],
                 ),
                 widget.TextBox(
-                    font="FontAwesome",
+                    font="Font Awesome 6 Free",
                     text=" ",
                     foreground=colors[5],
                     background=colors[9],
@@ -225,7 +226,7 @@ screens = [
                     padding=0,
                     margin=5,),
                 widget.TextBox(
-                    font="FontAwesome",
+                    font="Font Awesome 6 Free",
                     text="  ",
                     foreground=colors[5],
                     background=colors[9],
@@ -240,7 +241,7 @@ screens = [
                     fontsize=16,
                 ),
                 widget.TextBox(
-                    font="FontAwesome",
+                    font="Font Awesome 6 Free",
                     text=" ",
                     foreground=colors[5],
                     background=colors[3],
@@ -257,7 +258,7 @@ screens = [
                     mouse_callbacks={"Button1": open_calcurse},
                 ),
                 widget.TextBox(
-                    font="FontAwesome",
+                    font="Font Awesome 6 Free",
                     text="  ",
                     foreground=colors[5],
                     background=colors[9],
@@ -267,7 +268,7 @@ screens = [
                 ),
 
                 widget.TextBox(
-                    font="FontAwesome",
+                    font="Font Awesome 6 Free",
                     text=" ",
                     foreground=colors[5],
                     background=colors[9],
