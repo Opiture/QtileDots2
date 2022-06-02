@@ -24,5 +24,9 @@ mv -v .config/* ~/.config
 ```
 
 ```bash
+chmod +x ~/.config/qtile/autostart.sh
+```
+
+```bash
 reboot
 ```
