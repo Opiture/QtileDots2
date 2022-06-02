@@ -1,1 +1,18 @@
-qtile thunar alacritty network-manager-applet ttf-font-awesome adobe-source-code-pro-fonts calcurse bottom lxappearance rofi feh starship file-roller pypy3-psutil brave-bin picom-git ly nordic-theme
+qtile
+thunar
+alacritty
+network-manager-applet
+ttf-font-awesome
+adobe-source-code-pro-fonts
+calcurse
+bottom
+lxappearance
+rofi
+feh
+starship
+file-roller
+pypy3-psutil
+brave-bin
+picom-git
+ly
+nordic-theme
