@@ -23,6 +23,9 @@ mkdir ~/.config
 ```
 it's fine if it says it already exists
 ```bash
+rm -r ~/.config/neofetch
+```
+```bash
 mv -v .config/* ~/.config
 ```
 
