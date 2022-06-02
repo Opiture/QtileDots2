@@ -10,7 +10,7 @@ cd QtileDots2
 yay -S - < packages.txt
 ```
 ```bash
-systemctl enable ly.service
+sudo systemctl enable ly.service
 ```
 ```bash
 mv .bashrc ~/
