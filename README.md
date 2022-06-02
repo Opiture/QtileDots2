@@ -22,3 +22,7 @@ it's fine if it says it already exists
 ```bash
 mv -v .config/* ~/.config
 ```
+
+```bash
+reboot
+```
